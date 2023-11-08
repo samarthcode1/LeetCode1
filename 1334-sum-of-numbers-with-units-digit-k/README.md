@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sum-of-numbers-with-units-digit-k">1334. Sum of Numbers With Units Digit K</a></h2><h3>Medium</h3><hr><p>Given two integers <code>num</code> and <code>k</code>, consider a set of positive integers with the following properties:</p>
+<h2><a href="https://leetcode.com/problems/sum-of-numbers-with-units-digit-k">Sum of Numbers With Units Digit K</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given two integers <code>num</code> and <code>k</code>, consider a set of positive integers with the following properties:</p>
 
 <ul>
 	<li>The units digit of each integer is <code>k</code>.</li>
