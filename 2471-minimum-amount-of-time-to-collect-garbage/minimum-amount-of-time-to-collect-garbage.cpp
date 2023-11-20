@@ -1,27 +1,43 @@
 class Solution {
 public:
     int garbageCollection(vector<string>& garbage, vector<int>& travel) {
-        vector<int>prefixsum(travel.size()+1,0);
-        prefixsum[1]=travel[0];
-        for(int i=1;i<travel.size();i++){
-            prefixsum[i+1]=prefixsum[i]+travel[i];
-        }
-        unordered_map<char,int>mp1;
-        unordered_map<char,int>mp2;
-        for(int i=0;i<garbage.size();i++){
-            for(char c:garbage[i]){
-                mp1[c]=i;
-                mp2[c]++;
-            }
-        }
-        char garbType[3]={'M','P','G'};
-        int ans=0;
-        for(char c:garbType){
-            if(mp2[c]){
-                ans+=prefixsum[mp1[c]]+mp2[c];
-            }
-        }
-        return ans;
+        bool mFound = false;
+        bool pFound = false;
+        bool gFound = false;
+        int currTime = 0;
 
+        for(int i = (garbage.size() - 1); i >= 0; --i) {
+            string currGarbage = garbage[i];
+            for(int j = 0; j < currGarbage.length(); ++j) {
+                char typeGarb = currGarbage[j];
+                ++currTime;
+                switch(typeGarb) {
+                    case 'M':
+                        if(mFound) { break; }
+                        for(int k = 0; k < i; ++k) {
+                            currTime += travel[k];
+                        }
+                        mFound = true;
+                        break;
+                    case 'P':
+                        if (pFound) { break; }
+                        for(int k = 0; k < i; ++k) {
+                            currTime += travel[k];
+                        }
+                        pFound = true;
+                        break;
+                    case 'G':
+                        if (gFound) { break; }
+                        for(int k = 0; k < i; ++k) {
+                            currTime += travel[k];
+                        }
+                        gFound = true;
+                        break;
+
+                }
+            }
+        }
+        
+        return currTime;
     }
 };
