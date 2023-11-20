@@ -13,21 +13,27 @@ public:
                 ++currTime;
                 switch(typeGarb) {
                     case 'M':
-                        if(mFound) { break; }
+                        if(mFound) { 
+                            break; 
+                        }
                         for(int k = 0; k < i; ++k) {
                             currTime += travel[k];
                         }
                         mFound = true;
                         break;
                     case 'P':
-                        if (pFound) { break; }
+                        if (pFound) { 
+                            break; 
+                        }
                         for(int k = 0; k < i; ++k) {
                             currTime += travel[k];
                         }
                         pFound = true;
                         break;
                     case 'G':
-                        if (gFound) { break; }
+                        if (gFound) { 
+                            break; 
+                        }
                         for(int k = 0; k < i; ++k) {
                             currTime += travel[k];
                         }
