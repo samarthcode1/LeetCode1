@@ -8,7 +8,7 @@ public:
         int left = 0;
         int right = sum;
 
-        std::vector<int> result(nums.size(), 0);
+        vector<int> result(nums.size(), 0);
 
         for (int i = 0; i < nums.size(); i++) {
             int n = nums[i];
