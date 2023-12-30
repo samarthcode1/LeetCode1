@@ -8,8 +8,8 @@ public:
             }
         }
         int n=words.size();
-        for(auto [key,val]:mp){
-            if(val%n!=0){
+        for(auto i:mp){
+            if(i.second%n!=0){
                 return false;
             }
         }
