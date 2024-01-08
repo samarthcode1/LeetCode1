@@ -16,14 +16,13 @@ public:
             return 0;
         }
         int curr;
-        if(root->val >= low && root->val <= high){
-            curr=root->val;
+        if (low <= root->val && root->val <= high) {
+            return root->val + rangeSumBST(root->left, low, high) + rangeSumBST(root->right, low, high);
+        } else if (root->val < low) {
+            return rangeSumBST(root->right, low, high);
+        } else {
+            return rangeSumBST(root->left, low, high);
         }
-        else{
-            curr=0;
-        }
-        int leftsum=rangeSumBST(root->left,low,high);
-        int rightsum=rangeSumBST(root->right,low,high);
-        return leftsum+rightsum+curr;
+        return 0;
     }
 };
