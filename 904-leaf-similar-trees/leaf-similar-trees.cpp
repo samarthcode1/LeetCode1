@@ -15,12 +15,13 @@ public:
         vector<int>l1,l2;
         dfs(root1,l1);
         dfs(root2,l2);
-        if(l1==l2){
-            return true;
-        }
-        else{
-            return false;
-        }
+        // if(l1==l2){
+        //     return true;
+        // }
+        // else{
+        //     return false;
+        // }
+        return l1==l2;
     }
     void dfs(TreeNode* root,vector<int>& l){
         if(root==NULL){
