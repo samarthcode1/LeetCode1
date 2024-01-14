@@ -4,8 +4,8 @@ public:
         if(word1.size()!= word2.size()){
             return false;
         }
-        sort(word1.begin(),word1.end());
-        sort(word2.begin(),word2.end());
+        // sort(word1.begin(),word1.end());
+        // sort(word2.begin(),word2.end());
         unordered_map<char,int>mp1,mp2;
         for(auto i:word1){
             mp1[i]++;
