@@ -1,19 +1,21 @@
 class Solution {
 public:
-int dp[100];
-    int func(vector<int>& nums,int n){
+// int dp[100];
+    //Memoization
+    int func(vector<int>& nums,int n,vector<int>& dp){
         if(n<0){
             return 0;
         }
         if(dp[n]!=-1){
             return dp[n];
         }
-        return dp[n]=max(nums[n]+func(nums,n-2),func(nums,n-1));
+        return dp[n]=max(nums[n]+func(nums,n-2,dp),func(nums,n-1,dp));
     }
     int rob(vector<int>& nums) {
         int n=nums.size();
-        memset(dp,-1,sizeof(dp));
-        return func(nums,n-1);
+        // memset(dp,-1,sizeof(dp));
+        vector<int>dp(n,-1);
+        return func(nums,n-1,dp);
         // vector<int>v1,v2;
         // for(int i=0;i<n;i+=2){
         //     v1.push_back(nums[i]);
