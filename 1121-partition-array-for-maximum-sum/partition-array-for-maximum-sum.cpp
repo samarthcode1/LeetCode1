@@ -17,8 +17,9 @@ public:
             maxVal=max(maxVal,arr[j]);
             maxi=max(maxi,(j-i+1)*maxVal+recurr(arr,k,j+1,n));
         }
-        dp[i]=maxi;
-        return dp[i];
+        // dp[i]=maxi;
+        // return dp[i];
+        return dp[i]=maxi;
     }
     int maxSumAfterPartitioning(vector<int>& arr, int k) {
         memset(dp,-1,sizeof(dp));
