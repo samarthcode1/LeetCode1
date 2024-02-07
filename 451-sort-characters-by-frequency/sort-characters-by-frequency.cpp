@@ -19,7 +19,9 @@ public:
         {
             pair<int,char>pa=pq.top();
             pq.pop();
-            st+=string(pa.first,pa.second);
+            for(int i=0;i<pa.first;i++){
+                st+=pa.second;
+            }
         }
         return st;
     }
