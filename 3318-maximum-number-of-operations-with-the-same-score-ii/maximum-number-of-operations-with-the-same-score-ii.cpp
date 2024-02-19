@@ -2,7 +2,6 @@ class Solution {
 public:
     int dp[2001][2001];
     int recursive(vector<int>& nums, int start, int end, int req_sum, int n){
-        // cout<<"Start is: "<<start<<" end is: "<<end<<" req: "<<req_sum<<"\n";
         int size = end-start+1;
         if(size < 2){
             return 0;
