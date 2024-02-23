@@ -1,5 +1,6 @@
 class Solution {
 public:
+int dp[101][101];
     int uniquePaths(int m, int n) {
         vector<vector<int>>dp(m,vector<int>(n,0));
         for(int i=0;i<m;i++){
