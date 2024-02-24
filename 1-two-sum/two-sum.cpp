@@ -11,9 +11,9 @@ public:
             }
             mp[nums[i]]=i;
         }
-        if(v.size()==0){
-            return {-1,-1};
-        }
+        // if(v.size()==0){
+        //     return {-1,-1};
+        // }
         return v;
     }
 };
