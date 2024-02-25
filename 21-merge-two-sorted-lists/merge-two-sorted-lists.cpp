@@ -11,56 +11,41 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if(list1==NULL)
-            return list2;
-        if(list2==NULL)
-            return list1;
-        ListNode* r =NULL;
-        ListNode* head = NULL;    
-        ListNode* t1 = list1;
-        ListNode* t2 = list2;
-        while(t1!=NULL &&t2!=NULL){
-            if(t1->val <= t2->val){
-                if(r==NULL)
-                {
-                    r = t1;
-                    head =r;
-                }
-                else
-                {
-                    r->next = t1;
-                    r = t1;
-                }
-                t1=t1->next;
-            }    
-            else{
-               // ListNode* temp = ListNode(temp2->val);
-                if(r==NULL)
-                {
-                    r = t2;
-                    head =r;
-                }
-                else
-                {
-                    r->next = t2;
-                    r = t2;
-                }
-                t2=t2->next;
-                
+
+        ListNode* p1=list1;
+        ListNode* p2=list2;
+        ListNode* temp= new ListNode(-1);
+        ListNode* p3=temp;
+
+        while(p1!=NULL && p2!=NULL){
+            if(p1->val<p2->val){
+                p3->next=p1;
+                p1=p1->next;
             }
-            
-                
+
+            else{
+                p3->next=p2;
+                p2=p2->next;
+            }
+           
+           p3=p3->next;
         }
-        if(t1!=NULL){
-           // ListNode* temp = ListNode(temp1->val);
-            r->next = t1;
-            
+
+        while(p1!=NULL){
+            p3->next=p1;
+            p1=p1->next;
+            p3=p3->next;
+
         }
-        if(t2!=NULL){
-            //ListNode* temp = ListNode(temp2->val);
-            r->next = t2;
+
+        while(p2!=NULL){
+            p3->next=p2;
+            p2=p2->next;
+            p3=p3->next;
+
         }
-        return head;
+
+      return temp->next;
+        
     }
-    
 };
