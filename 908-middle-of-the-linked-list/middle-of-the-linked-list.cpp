@@ -19,17 +19,9 @@ public:
         }
         ListNode* h1=head;
         int val=n/2;
-        if(n%2!=0){
-            while(val!=0){
-                h1=h1->next;
-                val--;
-            }
-        }
-        else{
-            while(val!=0){
-                h1=h1->next;
-                val--;
-            }
+        while(val!=0){
+            h1=h1->next;
+            val--;
         }
         return h1;
     }
