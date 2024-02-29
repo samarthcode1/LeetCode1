@@ -16,18 +16,18 @@ public:
         queue<TreeNode*>q;
         TreeNode* temp=root;
         q.push(temp);
-        bool even=true;
+        bool level=true;
         while(!q.empty()){
             int n=q.size();
             int prev=INT_MIN;
-            if(!even){
+            if(!level){
                 prev=INT_MAX;
             }
             while(n>0){
                 temp=q.front();
                 q.pop();
                 n--;
-                if(even && (temp->val%2==0 || temp->val<=prev) || (!even &&(temp->val%2!=0 || temp->val>=prev))){
+                if(level && (temp->val%2==0 || temp->val<=prev) || (!level &&(temp->val%2!=0 || temp->val>=prev))){
                     return false;
                 }
                 prev=temp->val;
@@ -38,7 +38,7 @@ public:
                     q.push(temp->right);
                 }
             }
-            even=!even;
+            level=!level;
         }
         return true;
     }
