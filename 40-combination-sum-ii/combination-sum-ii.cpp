@@ -6,14 +6,10 @@ public:
             return;
         }
 
-        if(sum>target){
+        if(sum>target || id==n){
             return;
         }
         
-        if(id==n){
-            return;
-        }
-
         for(int i=id;i<n;i++){
             if(sum+candidate[i]>target){
                 break;
