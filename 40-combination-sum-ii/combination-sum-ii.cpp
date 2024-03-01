@@ -9,7 +9,7 @@ public:
         if(sum>target || id==n){
             return;
         }
-        
+
         for(int i=id;i<n;i++){
             if(sum+candidate[i]>target){
                 break;
@@ -24,10 +24,8 @@ public:
                 combinesum(candidate,target,v,sum,i+1,n,ans);
                 sum-=candidate[i];
                 v.pop_back();
-                // combinesum(candidate,target,v,sum,i+1,n,ans);
             }
         }
-        // combinesum(candidate,target,v,sum,i+1,n,ans);
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
         int n=candidates.size();
