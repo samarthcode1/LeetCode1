@@ -5,7 +5,7 @@ public:
         int right = arr.size() - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            int count = arr[mid] - mid - 1;
+            int count = arr[mid] - (mid+1);
             if (count < k) {
                 left = mid + 1;
             } else {
