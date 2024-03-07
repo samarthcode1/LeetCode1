@@ -23,8 +23,9 @@ long long calculateTotalHours(vector<int> &piles, int hourly)
         return totalHour;
 }
 int minEatingSpeed(vector<int>& piles, int h) {
+        int maxi=*max_element(piles.begin(),piles.end());
         int n = piles.size();
-        int low=1,high = findMax(piles);
+        int low=1,high = maxi;
         while(low<=high)
         {
             int mid=(low+high)/2;
