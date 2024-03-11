@@ -1,24 +1,28 @@
 class Solution {
 public:
     string customSortString(string order, string s) {
-        string str="";
-        unordered_map<char,int>mp;
-        for(char i:s){
-            mp[i]++;
+        std::unordered_map<char, int> charCount;
+        for (char c : order) {
+            charCount[c] = 0;
         }
-        for(char c:order){
-            if(mp.find(c)!=mp.end()){
-                while(mp[c]-->0){
-                    str+=c;
-                }
+        
+        for (char c : s) {
+            if (charCount.find(c) != charCount.end()) {
+                charCount[c]++;
             }
         }
-    
-        for(auto i:mp){
-            while(i.second-->0){
-                str+=i.first;
+        
+        std::string sortedS;
+        for (char c : order) {
+            sortedS.append(charCount[c], c);
+        }
+        
+        for (char c : s) {
+            if (charCount.find(c) == charCount.end()) {
+                sortedS.push_back(c);
             }
         }
-        return str;
+        
+        return sortedS;
     }
 };
