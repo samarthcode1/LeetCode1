@@ -8,12 +8,13 @@ public:
         int g=0;
         for(auto &i:numsDivide){
             g=__gcd(g,i);
+            // cout<<g<<endl;
         }
         if(g==1 || g<nums[0]){
             return -1;
         }
-        int i=0;
-        for(i=0;i<nums.size();i++){
+        // int i=0;
+        for(int i=0;i<nums.size();i++){
             if(g%nums[i]==0){
                 return i;
             }
