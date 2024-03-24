@@ -1,28 +1,26 @@
 class Solution {
 public:
-    void combinesum(vector<int>& candidate,int target,vector<int>& v,int sum,int i,int n, vector<vector<int>> &ans){
-        if(i==n){
-            if(sum == target){
-                ans.push_back(v); 
+    void combi(vector<int>& candidates, vector<vector<int>>& combina,vector<int>& v,int sum,int ind,int n, int target){
+        if(ind==n){
+            if(target==sum){
+                combina.push_back(v);
             }
             return;
         }
-        if((sum+candidate[i])<=target){
-            sum+=candidate[i];
-            v.push_back(candidate[i]);
-            combinesum(candidate,target,v,sum,i,n,ans);
-            sum-=candidate[i];
-            // v.pop_back(candidate[i]);
+        if(sum+candidates[ind]<=target){
+            sum+=candidates[ind];
+            v.push_back(candidates[ind]);
+            combi(candidates,combina,v,sum,ind,n,target);
+            sum-=candidates[ind];
             v.pop_back();
         }
-        combinesum(candidate,target,v,sum,i+1,n,ans);
+        combi(candidates,combina,v,sum,ind+1,n,target);
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         int n=candidates.size();
-        vector<vector<int>>result;
+        vector<vector<int>>combina;
         vector<int>v;
-        combinesum(candidates,target,v,0,0,n,result);
-        // result.push_back(v);
-        return result;
+        combi(candidates,combina,v,0,0,n,target);
+        return combina;
     }
 };
