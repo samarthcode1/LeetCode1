@@ -11,10 +11,10 @@
  */
 class Solution {
 public:
-    string ans="";
-    void dfs(TreeNode* root,string str){
+
+    string dfs(TreeNode* root,string str,string &ans){
         if(!root){
-            return;
+            return "";
         }
         str=char('a'+root->val)+str;
         if(!root->left && !root->right){
@@ -24,16 +24,16 @@ public:
             }
         }
         if(root->left){
-            dfs(root->left,str);
+            dfs(root->left,str,ans);
         }
         if(root->right){
-            dfs(root->right,str);
+            dfs(root->right,str,ans);
         }
-
+        return ans;
     }
     string smallestFromLeaf(TreeNode* root) {
-        // string ans="";
-        dfs(root,"");
+        string ans="";
+        dfs(root,"",ans);
         return ans;
     }
 };
