@@ -23,22 +23,6 @@ public:
                     q.push({nx,ny});
                 }
             }
-            // if(x+1<m and grid2[x+1][y]==1){
-            //     grid2[x+1][y] = 0;
-            //      q.push({x+1,y});
-            // }
-            // if(y+1<n and grid2[x][y+1]==1){
-            //     grid2[x][y+1] = 0;
-            //     q.push({x,y+1});
-            // }
-            // if(x-1>=0 and grid2[x-1][y]==1){
-            //     grid2[x-1][y] = 0;
-            //     q.push({x-1,y});
-            // }
-            // if(y-1>=0 and grid2[x][y-1]==1){
-            //     grid2[x][y-1] = 0;
-            //     q.push({x,y-1});
-            // }
         }
         return curr;
     }
