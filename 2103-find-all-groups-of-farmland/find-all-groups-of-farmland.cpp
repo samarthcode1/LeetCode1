@@ -3,9 +3,9 @@ public:
     int dX[2]={0,1};
     int dY[2]={1,0};
     vector<int> bfs(vector<vector<int>>& land,int &i,int &j,int &m,int &n){
-        queue<pair<int,int>>q;
+        queue<pair<int,int>>q;               
         q.push({i,j});
-        land[i][j]=INT_MAX;
+        land[i][j]=-1;
         vector<int>v={i,j};
         pair<int,int>prev;
         while(!q.empty()){
@@ -16,7 +16,7 @@ public:
                 int x=dX[k]+p.first;
                 int y=dY[k]+p.second;
                 if(x>=0 && x<m && y>=0 && y<n && land[x][y]==1){
-                    land[x][y]=INT_MAX;
+                    land[x][y]=-1;
                     q.push({x,y});
                 }
             }
