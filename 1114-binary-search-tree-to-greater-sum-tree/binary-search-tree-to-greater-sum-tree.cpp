@@ -19,9 +19,6 @@ public:
         greaterSum(root->right);
         sum+=root->val;
         root->val=sum;
-        // int val=root->val;
-        // root->val+=sum;
-        // sum+=val;
         greaterSum(root->left);
     }
     TreeNode* bstToGst(TreeNode* root) {
