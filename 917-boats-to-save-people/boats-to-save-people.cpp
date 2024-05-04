@@ -9,7 +9,7 @@ public:
         int count=0;
         for(low=0,high=people.size()-1;low<=high;high--){
             count++;
-            if(people[low]<=limit-people[high]){
+            if(people[low]+people[high]<=limit){
                 low++;
             }
         }
