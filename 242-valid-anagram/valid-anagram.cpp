@@ -1,18 +1,35 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        unordered_map<char,int>mp1;
-        unordered_map<char,int>mp2;
-        sort(s.begin(),s.end());
-        sort(t.begin(),t.end());
-        if(s.length()!=t.length()){
+        if(s.size()!=t.size()){
             return false;
         }
-        else{
-            if(s==t){
-                return true;
+        sort(s.begin(),s.end());
+        sort(t.begin(),t.end());
+        unordered_map<char,int>mp1,mp2;
+        for(auto i:s){
+            mp1[i]++;
+        }
+        for(auto i:t){
+            mp2[i]++;
+        }
+        for(auto i:mp1){
+            cout<<i.first<<" "<<i.second<<endl;
+        }
+        cout<<endl;
+        for(auto i:mp2){
+            cout<<i.first<<" "<<i.second<<endl;
+        }
+        for(int i=0;i<s.size();i++){
+            if(s[i]==t[i]){
+                if(mp1[s[i]]!=mp2[t[i]]){
+                    return false;
+                }
+            }
+            else{
+                return false;
             }
         }
-        return false;
+        return true;
     }
 };
