@@ -15,6 +15,7 @@
 # Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
 # Sorting
 |  |
@@ -36,3 +37,15 @@
 |  |
 | ------- |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+# Array
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+# Backtracking
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+# Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
