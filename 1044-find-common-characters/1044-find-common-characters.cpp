@@ -12,11 +12,15 @@ public:
                 common[i] = min(common[i], v[i]);
             }
         }
-    
-        for (int i = 0; i < 26; ++i) {
-            while (common[i] > 0) {
-                result.push_back(string(1, i + 'a'));
+        for(int i = 0; i < 26; ++i)
+        {
+            string s="";
+            while (common[i] > 0) 
+            {
+                s+=(i+'a');
+                result.push_back(s);
                 common[i]--;
+                s="";
             }
         }
         return result;
