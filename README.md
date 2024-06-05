@@ -43,6 +43,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+| [0540-single-element-in-a-sorted-array](https://github.com/samarthcode1/LeetCode1/tree/master/0540-single-element-in-a-sorted-array) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
 # Backtracking
 |  |
@@ -52,3 +53,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+# Binary Search
+|  |
+| ------- |
+| [0540-single-element-in-a-sorted-array](https://github.com/samarthcode1/LeetCode1/tree/master/0540-single-element-in-a-sorted-array) |
