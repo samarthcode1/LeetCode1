@@ -10,15 +10,13 @@ public:
             mp[i]++;
         }
         for(auto i:mp){
-            if(i.second==0){
-                continue;
-            }
-            int count=i.second;
-            for(int j=0;j<groupSize;j++){
-                if(!mp.count(i.first+j) || mp[i.first+j]<count){
-                    return false;
+            if(mp[i.first]>0){
+                for(int j=1;j<groupSize;j++){
+                    mp[i.first+j]-=mp[i.first];
+                    if(mp[i.first+j]<0){
+                        return false;
+                    }
                 }
-                mp[i.first+j]-=count;
             }
         }
         return true;
