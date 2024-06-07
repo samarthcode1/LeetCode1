@@ -66,6 +66,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/samarthcode1/LeetCode1/tree/master/0540-single-element-in-a-sorted-array) |
 | [0648-replace-words](https://github.com/samarthcode1/LeetCode1/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
+| [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 # Backtracking
@@ -76,6 +77,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+| [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
 # Binary Search
 |  |
 | ------- |
@@ -114,3 +116,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/samarthcode1/LeetCode1/tree/master/0239-sliding-window-maximum) |
+# Breadth-First Search
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
