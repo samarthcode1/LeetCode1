@@ -58,6 +58,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+| [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0215-kth-largest-element-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 | [0540-single-element-in-a-sorted-array](https://github.com/samarthcode1/LeetCode1/tree/master/0540-single-element-in-a-sorted-array) |
@@ -91,3 +92,11 @@
 |  |
 | ------- |
 | [0648-replace-words](https://github.com/samarthcode1/LeetCode1/tree/master/0648-replace-words) |
+# Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
+# Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
