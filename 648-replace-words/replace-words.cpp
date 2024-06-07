@@ -17,7 +17,7 @@ public:
         string res="";
         string word="";
         int start=0;
-        for(int i=0;i<sentence.size();i++){
+        for(int i=0;i<sentence.size();i++){ 
             if(sentence[i]==' '){
                 string ans=check(dictionary,word);
                 if(ans==""){
