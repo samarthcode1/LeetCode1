@@ -22,6 +22,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
 | [0648-replace-words](https://github.com/samarthcode1/LeetCode1/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 # Sorting
@@ -31,6 +32,7 @@
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 # Heap (Priority Queue)
 |  |
@@ -119,4 +121,17 @@
 # Breadth-First Search
 |  |
 | ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
+# Tree
+|  |
+| ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
