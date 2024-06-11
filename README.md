@@ -24,6 +24,7 @@
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
+| [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 # Sorting
 |  |
@@ -33,6 +34,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 # Heap (Priority Queue)
 |  |
@@ -70,6 +72,7 @@
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
+| [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 # Backtracking
 |  |
@@ -145,3 +148,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+# Counting Sort
+|  |
+| ------- |
+| [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
