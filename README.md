@@ -36,6 +36,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/samarthcode1/LeetCode1/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Heap (Priority Queue)
 |  |
 | ------- |
@@ -58,6 +59,7 @@
 | ------- |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/samarthcode1/LeetCode1/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
@@ -74,6 +76,7 @@
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/samarthcode1/LeetCode1/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Backtracking
 |  |
 | ------- |
