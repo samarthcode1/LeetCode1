@@ -145,6 +145,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/samarthcode1/LeetCode1/tree/master/2384-root-equals-sum-of-children) |
 # Depth-First Search
@@ -164,6 +165,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/samarthcode1/LeetCode1/tree/master/2384-root-equals-sum-of-children) |
 # Counting Sort
@@ -179,3 +181,7 @@
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/samarthcode1/LeetCode1/tree/master/0116-populating-next-right-pointers-in-each-node) |
+# Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
