@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/samarthcode1/LeetCode1/tree/master/0344-reverse-string) |
+| [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -184,4 +185,9 @@
 # Binary Search Tree
 |  |
 | ------- |
+| [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
+# Math
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
