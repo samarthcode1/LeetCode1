@@ -156,6 +156,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/samarthcode1/LeetCode1/tree/master/2384-root-equals-sum-of-children) |
 # Depth-First Search
 |  |
@@ -167,6 +168,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 # Binary Tree
 |  |
 | ------- |
@@ -181,6 +183,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/samarthcode1/LeetCode1/tree/master/2384-root-equals-sum-of-children) |
 # Counting Sort
 |  |
@@ -191,6 +194,7 @@
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0124-binary-tree-maximum-path-sum) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 # Linked List
 |  |
 | ------- |
@@ -204,6 +208,7 @@
 | [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
 | [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 # Math
 |  |
 | ------- |
