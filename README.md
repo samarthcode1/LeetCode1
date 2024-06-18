@@ -116,6 +116,7 @@
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
+| [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
 # Monotonic Stack
 |  |
 | ------- |
@@ -149,6 +150,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/samarthcode1/LeetCode1/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
@@ -173,6 +175,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/samarthcode1/LeetCode1/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0662-maximum-width-of-binary-tree) |
@@ -196,6 +199,7 @@
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
@@ -204,3 +208,11 @@
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
+# Design
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
+# Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
