@@ -6,6 +6,7 @@
 | ------- |
 | [0344-reverse-string](https://github.com/samarthcode1/LeetCode1/tree/master/0344-reverse-string) |
 | [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -33,6 +34,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
+| [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -59,6 +61,7 @@
 # Greedy
 |  |
 | ------- |
+| [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -74,6 +77,7 @@
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 | [0540-single-element-in-a-sorted-array](https://github.com/samarthcode1/LeetCode1/tree/master/0540-single-element-in-a-sorted-array) |
 | [0648-replace-words](https://github.com/samarthcode1/LeetCode1/tree/master/0648-replace-words) |
+| [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
@@ -195,6 +199,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
+| [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 # Math
 |  |
 | ------- |
