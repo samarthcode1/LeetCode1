@@ -1,39 +1,46 @@
 class Solution {
 public:
-    int check(vector<int>& bloomDay, int mid,int m, int k){
-        int count=0,total=0;
-        for(int i=0;i<bloomDay.size();i++){
-            if(bloomDay[i]<=mid){
-                count++;
-            }
-            else{
-                total+=count/k;
-                count=0;
-            }
-        }
-        total+=count/k;
-        return total;
+    int minDays(vector<int>& bloomDay, int m, int k) {
         
-    }
-    int minDays(vector<int>& bloomDay, long long  m, long long k) {
-        int mini=*min_element(bloomDay.begin(),bloomDay.end());
-        int maxi=*max_element(bloomDay.begin(),bloomDay.end());
-        int low=mini;
-        int high=maxi;
-        long long n=bloomDay.size();
-        if(n<m*k){
-            return -1;
-        }
-        while(low<=high){
-            int mid=(low+high)/2;
-            int total=check(bloomDay,mid,m,k);
-            if(total>=m){
-                high=mid-1;
+     std::vector<int> bloomDay1 = bloomDay;
+    std::sort(bloomDay1.begin(), bloomDay1.end());
+    int n = bloomDay.size();
+    int start = bloomDay1[0];
+    int end = bloomDay1[n - 1];
+    int res = INT_MAX;
+
+    while (start <= end) {
+        int mid = start + (end - start) / 2;
+        int count = 0;
+        int roses = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (bloomDay[i] <= mid) {
+                roses++;
             }
-            else{
-                low=mid+1;
+
+            if (roses == k) {
+                count++;
+                roses = 0;
+            }
+
+            if (bloomDay[i] > mid) {
+                roses = 0;
             }
         }
-        return low;
+
+        if (count >= m) {
+            res = std::min(res, mid);
+            end = mid - 1;
+        } else {
+            start = mid + 1;
+        }
     }
+
+    if (res ==INT_MAX ) {
+        return -1;
+    }
+
+    return res;
+}
 };
