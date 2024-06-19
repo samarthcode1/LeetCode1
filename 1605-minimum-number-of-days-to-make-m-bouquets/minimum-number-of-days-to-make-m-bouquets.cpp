@@ -2,8 +2,8 @@ class Solution {
 public:
     int minDays(vector<int>& bloomDay, int m, int k) {
         
-     std::vector<int> bloomDay1 = bloomDay;
-    std::sort(bloomDay1.begin(), bloomDay1.end());
+    vector<int> bloomDay1 = bloomDay;
+    sort(bloomDay1.begin(), bloomDay1.end());
     int n = bloomDay.size();
     int start = bloomDay1[0];
     int end = bloomDay1[n - 1];
