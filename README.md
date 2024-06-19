@@ -84,6 +84,7 @@
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/samarthcode1/LeetCode1/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/samarthcode1/LeetCode1/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Backtracking
 |  |
@@ -209,6 +210,7 @@
 | [0783-search-in-a-binary-search-tree](https://github.com/samarthcode1/LeetCode1/tree/master/0783-search-in-a-binary-search-tree) |
 | [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/samarthcode1/LeetCode1/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Math
 |  |
 | ------- |
