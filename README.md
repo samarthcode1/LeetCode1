@@ -4,6 +4,7 @@
 # Two Pointers
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/samarthcode1/LeetCode1/tree/master/0148-sort-list) |
 | [0344-reverse-string](https://github.com/samarthcode1/LeetCode1/tree/master/0344-reverse-string) |
 | [0633-sum-of-square-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
@@ -31,6 +32,7 @@
 # Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/samarthcode1/LeetCode1/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
@@ -102,6 +104,7 @@
 # Divide and Conquer
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/samarthcode1/LeetCode1/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 # Quickselect
@@ -200,6 +203,7 @@
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/samarthcode1/LeetCode1/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0148-sort-list](https://github.com/samarthcode1/LeetCode1/tree/master/0148-sort-list) |
 # Binary Search Tree
 |  |
 | ------- |
@@ -223,3 +227,7 @@
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/samarthcode1/LeetCode1/tree/master/0173-binary-search-tree-iterator) |
+# Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/samarthcode1/LeetCode1/tree/master/0148-sort-list) |
