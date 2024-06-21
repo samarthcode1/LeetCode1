@@ -84,6 +84,7 @@
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
+| [1138-grumpy-bookstore-owner](https://github.com/samarthcode1/LeetCode1/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/samarthcode1/LeetCode1/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -133,6 +134,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/samarthcode1/LeetCode1/tree/master/0239-sliding-window-maximum) |
+| [1138-grumpy-bookstore-owner](https://github.com/samarthcode1/LeetCode1/tree/master/1138-grumpy-bookstore-owner) |
 # Monotonic Queue
 |  |
 | ------- |
