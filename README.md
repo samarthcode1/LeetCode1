@@ -83,6 +83,7 @@
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1044-find-common-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1044-find-common-characters) |
 | [1138-grumpy-bookstore-owner](https://github.com/samarthcode1/LeetCode1/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
@@ -130,10 +131,12 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/samarthcode1/LeetCode1/tree/master/0239-sliding-window-maximum) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 # Sliding Window
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/samarthcode1/LeetCode1/tree/master/0239-sliding-window-maximum) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1138-grumpy-bookstore-owner](https://github.com/samarthcode1/LeetCode1/tree/master/1138-grumpy-bookstore-owner) |
 # Monotonic Queue
 |  |
@@ -233,3 +236,11 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/samarthcode1/LeetCode1/tree/master/0148-sort-list) |
+# Bit Manipulation
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Prefix Sum
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
