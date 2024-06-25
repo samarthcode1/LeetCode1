@@ -23,7 +23,7 @@ public:
         inorder(root->right,key);
     }
     TreeNode* makeTree(int start,int end){
-        if(start>=v.size() || end<0 || start>end){
+        if(start>=v.size() || start>end){
             return nullptr;
         }
         TreeNode* temp=new TreeNode();
