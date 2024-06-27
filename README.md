@@ -82,6 +82,7 @@
 | [0648-replace-words](https://github.com/samarthcode1/LeetCode1/tree/master/0648-replace-words) |
 | [0853-most-profit-assigning-work](https://github.com/samarthcode1/LeetCode1/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/samarthcode1/LeetCode1/tree/master/0876-hand-of-straights) |
+| [0967-minimum-falling-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0967-minimum-falling-path-sum) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
@@ -99,6 +100,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/samarthcode1/LeetCode1/tree/master/0037-sudoku-solver) |
+| [0967-minimum-falling-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/samarthcode1/LeetCode1/tree/master/1036-rotting-oranges) |
 # Binary Search
 |  |
@@ -213,6 +215,7 @@
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0213-house-robber-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0213-house-robber-ii) |
+| [0967-minimum-falling-path-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0967-minimum-falling-path-sum) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/samarthcode1/LeetCode1/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 # Linked List
 |  |
