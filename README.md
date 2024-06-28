@@ -43,6 +43,7 @@
 | [1217-relative-sort-array](https://github.com/samarthcode1/LeetCode1/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/samarthcode1/LeetCode1/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [2379-maximum-total-importance-of-roads](https://github.com/samarthcode1/LeetCode1/tree/master/2379-maximum-total-importance-of-roads) |
 # Heap (Priority Queue)
 |  |
 | ------- |
@@ -50,6 +51,7 @@
 | [0239-sliding-window-maximum](https://github.com/samarthcode1/LeetCode1/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/samarthcode1/LeetCode1/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/0451-sort-characters-by-frequency) |
+| [2379-maximum-total-importance-of-roads](https://github.com/samarthcode1/LeetCode1/tree/master/2379-maximum-total-importance-of-roads) |
 # Bucket Sort
 |  |
 | ------- |
@@ -68,6 +70,7 @@
 | [0982-minimum-increment-to-make-array-unique](https://github.com/samarthcode1/LeetCode1/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/samarthcode1/LeetCode1/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [2379-maximum-total-importance-of-roads](https://github.com/samarthcode1/LeetCode1/tree/master/2379-maximum-total-importance-of-roads) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
@@ -260,3 +263,7 @@
 |  |
 | ------- |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/samarthcode1/LeetCode1/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Graph
+|  |
+| ------- |
+| [2379-maximum-total-importance-of-roads](https://github.com/samarthcode1/LeetCode1/tree/master/2379-maximum-total-importance-of-roads) |
