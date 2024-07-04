@@ -313,4 +313,12 @@
 | [0583-delete-operation-for-two-strings](https://github.com/samarthcode1/LeetCode1/tree/master/0583-delete-operation-for-two-strings) |
 | [1170-shortest-common-supersequence](https://github.com/samarthcode1/LeetCode1/tree/master/1170-shortest-common-supersequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/samarthcode1/LeetCode1/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+## Linked List
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/samarthcode1/LeetCode1/tree/master/2299-merge-nodes-in-between-zeros) |
+## Simulation
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/samarthcode1/LeetCode1/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
