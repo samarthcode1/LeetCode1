@@ -276,6 +276,7 @@
 | [0322-coin-change](https://github.com/samarthcode1/LeetCode1/tree/master/0322-coin-change) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0518-coin-change-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0518-coin-change-ii) |
+| [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Dynamic Programming
 |  |
@@ -322,6 +323,7 @@
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/samarthcode1/LeetCode1/tree/master/1642-water-bottles) |
+| [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/samarthcode1/LeetCode1/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/samarthcode1/LeetCode1/tree/master/2645-pass-the-pillow) |
