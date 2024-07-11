@@ -278,6 +278,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0518-coin-change-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0518-coin-change-ii) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Dynamic Programming
@@ -292,6 +293,7 @@
 | [0583-delete-operation-for-two-strings](https://github.com/samarthcode1/LeetCode1/tree/master/0583-delete-operation-for-two-strings) |
 | [1170-shortest-common-supersequence](https://github.com/samarthcode1/LeetCode1/tree/master/1170-shortest-common-supersequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/samarthcode1/LeetCode1/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -314,6 +316,7 @@
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## String
 |  |
 | ------- |
