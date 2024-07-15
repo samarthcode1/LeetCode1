@@ -1,29 +1,27 @@
 class Solution {
 public:
-    int dp[501];
-    int recurr(vector<int>& arr, int k,int i,int n){
-        if(i>=n){
+    int find(int i,vector<int>& dp,vector<int>& arr,int k){
+        int n=arr.size();
+        if(i==n){
             return 0;
         }
+        int maxi=INT_MIN;
+        int len=0;
+        int sum=INT_MIN;
         if(dp[i]!=-1){
             return dp[i];
         }
-        int maxVal=0;
-        int maxi=0;
-        // int len=0;
-
         for(int j=i;j<min(n,i+k);j++){
-            // len++;
-            maxVal=max(maxVal,arr[j]);
-            maxi=max(maxi,(j-i+1)*maxVal+recurr(arr,k,j+1,n));
+            len++;
+            maxi=max(maxi,arr[j]);
+            int val=(maxi*len)+find(j+1,dp,arr,k);
+            sum=max(sum,val);
         }
-        // dp[i]=maxi;
-        // return dp[i];
-        return dp[i]=maxi;
+        return dp[i]=sum;
     }
     int maxSumAfterPartitioning(vector<int>& arr, int k) {
-        memset(dp,-1,sizeof(dp));
         int n=arr.size();
-        return recurr(arr,k,0,n);
+        vector<int>dp(n,-1);
+        return find(0,dp,arr,k);
     }
 };
