@@ -1,12 +1,15 @@
 class Solution {
 public:
-    int climbStairs(int n) {
-        int step2= 0, step1= 1, cur = 0;
-        for (int i = 0; i < n; i++) {
-            cur = step2 + step1;
-            step2 = step1;
-            step1 = cur;
+    int find(int n,vector<int>& dp){
+        dp[0]=1;
+        dp[1]=1;
+        for(int i=2;i<=n;i++){
+            dp[i]=dp[i-1]+dp[i-2];
         }
-        return cur;
+        return dp[n];
+    }
+    int climbStairs(int n) {
+        vector<int>dp(n+1,-1);
+        return find(n,dp);
     }
 };
