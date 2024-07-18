@@ -388,14 +388,17 @@
 |  |
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 <!---LeetCode Topics End-->
