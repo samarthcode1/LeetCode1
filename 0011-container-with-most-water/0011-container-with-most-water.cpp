@@ -20,7 +20,7 @@ public:
         //     }
         // }
         // return max;
-        int max=INT_MIN;
+        int maxi=INT_MIN;
         int i=0,j=height.size()-1;
             while(i<j){
                 int diff=abs(j-i);
@@ -40,10 +40,8 @@ public:
                 else{
                     i++;
                 }
-                if(max<amount){
-                    max=amount;
-                }
+                maxi=max(maxi,amount);
             }
-        return max;
+        return maxi;
     }
 };
