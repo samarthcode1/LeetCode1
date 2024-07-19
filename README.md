@@ -409,9 +409,14 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/samarthcode1/LeetCode1/tree/master/0191-number-of-1-bits) |
 | [0371-sum-of-two-integers](https://github.com/samarthcode1/LeetCode1/tree/master/0371-sum-of-two-integers) |
 ## Matrix
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/samarthcode1/LeetCode1/tree/master/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->
