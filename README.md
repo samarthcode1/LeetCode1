@@ -273,6 +273,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
+| [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/samarthcode1/LeetCode1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/samarthcode1/LeetCode1/tree/master/0312-burst-balloons) |
@@ -308,6 +309,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
@@ -320,11 +322,13 @@
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
@@ -354,6 +358,7 @@
 ## Math
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/samarthcode1/LeetCode1/tree/master/0371-sum-of-two-integers) |
 | [1642-water-bottles](https://github.com/samarthcode1/LeetCode1/tree/master/1642-water-bottles) |
@@ -410,6 +415,7 @@
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/samarthcode1/LeetCode1/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/samarthcode1/LeetCode1/tree/master/0371-sum-of-two-integers) |
 ## Matrix
 |  |
