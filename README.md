@@ -274,6 +274,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
+| [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/samarthcode1/LeetCode1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -294,6 +295,7 @@
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
 | [0115-distinct-subsequences](https://github.com/samarthcode1/LeetCode1/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/samarthcode1/LeetCode1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/samarthcode1/LeetCode1/tree/master/0312-burst-balloons) |
@@ -311,6 +313,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
@@ -341,6 +344,7 @@
 | ------- |
 | [0115-distinct-subsequences](https://github.com/samarthcode1/LeetCode1/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0443-string-compression](https://github.com/samarthcode1/LeetCode1/tree/master/0443-string-compression) |
 | [0583-delete-operation-for-two-strings](https://github.com/samarthcode1/LeetCode1/tree/master/0583-delete-operation-for-two-strings) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
@@ -430,4 +434,12 @@
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/samarthcode1/LeetCode1/tree/master/0191-number-of-1-bits) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
