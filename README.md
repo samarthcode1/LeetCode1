@@ -321,6 +321,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0443-string-compression](https://github.com/samarthcode1/LeetCode1/tree/master/0443-string-compression) |
 ## Binary Search
 |  |
 | ------- |
@@ -340,6 +341,7 @@
 | ------- |
 | [0115-distinct-subsequences](https://github.com/samarthcode1/LeetCode1/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0132-palindrome-partitioning-ii) |
+| [0443-string-compression](https://github.com/samarthcode1/LeetCode1/tree/master/0443-string-compression) |
 | [0583-delete-operation-for-two-strings](https://github.com/samarthcode1/LeetCode1/tree/master/0583-delete-operation-for-two-strings) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [1170-shortest-common-supersequence](https://github.com/samarthcode1/LeetCode1/tree/master/1170-shortest-common-supersequence) |
