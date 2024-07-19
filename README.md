@@ -275,6 +275,7 @@
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
 | [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/samarthcode1/LeetCode1/tree/master/0152-maximum-product-subarray) |
 | [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/samarthcode1/LeetCode1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -296,6 +297,7 @@
 | [0115-distinct-subsequences](https://github.com/samarthcode1/LeetCode1/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/samarthcode1/LeetCode1/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/samarthcode1/LeetCode1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/samarthcode1/LeetCode1/tree/master/0312-burst-balloons) |
