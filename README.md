@@ -287,6 +287,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -404,6 +405,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Tree
 |  |
@@ -432,6 +434,7 @@
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Divide and Conquer
 |  |
 | ------- |
