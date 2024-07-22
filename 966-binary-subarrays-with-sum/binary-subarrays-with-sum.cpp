@@ -1,25 +1,26 @@
 class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        int totalCount = 0;
-        int currentSum = 0;
-        // {prefix: number of occurrence}
-        unordered_map<int, int> freq; // To store the frequency of prefix sums
-
-        for (int num : nums) {
-            currentSum += num;
-            if (currentSum == goal){
-                totalCount++;
+        int sum=0;
+        int zero=0;
+        int left=0;
+        int count=0;
+        for(int i=0;i<nums.size();i++){
+            sum+=nums[i];
+            while(left<i && (sum>goal || nums[left]==0)){
+                if(nums[left]==1){
+                    zero=0;
+                }
+                else{
+                    zero++;
+                }
+                sum-=nums[left];
+                left++;
             }
-
-            // Check if there is any prefix sum that can be subtracted from the current sum to get the desired goal
-            if (freq.find(currentSum - goal) != freq.end()){
-                totalCount += freq[currentSum - goal];
+            if(sum==goal){
+                count+=1+zero;
             }
-
-            freq[currentSum]++;
         }
-
-        return totalCount;
+        return count;
     }
 };
