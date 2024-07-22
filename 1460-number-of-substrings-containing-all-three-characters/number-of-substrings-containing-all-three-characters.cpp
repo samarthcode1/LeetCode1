@@ -1,17 +1,13 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
-        int n=s.size();
-        unordered_map<char,int>mp;
-        int start=0,end=0,count=0;
-        while(end<n){
-            mp[s[end]]++;
-            while(mp['a']>=1 && mp['b']>=1 && mp['c']>=1){
-                count+=n-end;
-                mp[s[start]]--;
-                start++;
+        vector<int>v={-1,-1,-1};
+        int count=0;
+        for(int i=0;i<s.size();i++){
+            v[s[i]-'a']=i;
+            if(v[0]!=-1 && v[1]!=-1 && v[2]!=-1){
+                count+=1+*min_element(v.begin(),v.end());
             }
-            end++;
         }
         return count;
     }
