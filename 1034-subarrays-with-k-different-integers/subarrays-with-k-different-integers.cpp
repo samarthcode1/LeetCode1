@@ -1,10 +1,5 @@
 class Solution {
 public:
-    int subarraysWithKDistinct(vector<int>& nums, int k) {
-        return atMostK(nums, k) - atMostK(nums, k - 1);
-    }
-
-private:
     int atMostK(vector<int>& nums, int k) {
         unordered_map<int, int> mp;
         int left = 0;
@@ -21,5 +16,8 @@ private:
             count += right - left + 1;
         }
         return count;
+    }
+    int subarraysWithKDistinct(vector<int>& nums, int k) {
+        return atMostK(nums, k) - atMostK(nums, k - 1);
     }
 };
