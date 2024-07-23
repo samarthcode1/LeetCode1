@@ -12,7 +12,8 @@ public:
         }
         int minLength = INT_MAX;
         int letterCounter = 0;
-        for(int slow = 0, fast = 0; fast < S.length(); fast++){
+        int slow=0;
+        for(int fast = 0; fast < S.length(); fast++){
             char c = S[fast];
             if(map.find(c) != map.end()){
                 window[c]++;
