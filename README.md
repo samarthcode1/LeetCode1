@@ -286,6 +286,7 @@
 | [0518-coin-change-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/samarthcode1/LeetCode1/tree/master/0747-min-cost-climbing-stairs) |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
@@ -329,6 +330,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -470,6 +472,7 @@
 |  |
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/samarthcode1/LeetCode1/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -480,4 +483,8 @@
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/samarthcode1/LeetCode1/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+## Counting
+|  |
+| ------- |
+| [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 <!---LeetCode Topics End-->
