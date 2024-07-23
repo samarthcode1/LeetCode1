@@ -325,6 +325,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/samarthcode1/LeetCode1/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -363,6 +364,7 @@
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/samarthcode1/LeetCode1/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/samarthcode1/LeetCode1/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
@@ -471,6 +473,7 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/samarthcode1/LeetCode1/tree/master/0076-minimum-window-substring) |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
