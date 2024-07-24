@@ -289,6 +289,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
+| [1333-sort-the-jumbled-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1333-sort-the-jumbled-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/samarthcode1/LeetCode1/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -358,6 +359,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
+| [1333-sort-the-jumbled-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1333-sort-the-jumbled-numbers) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
