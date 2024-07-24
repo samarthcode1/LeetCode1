@@ -423,6 +423,7 @@
 ## Stack
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Greedy
@@ -435,18 +436,21 @@
 ## Tree
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0145-binary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0145-binary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0145-binary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Bit Manipulation
