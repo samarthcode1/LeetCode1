@@ -8,7 +8,8 @@ public:
             int n = 0;
             
             for (char c : s) {
-                n = n * 10 + mapping[c - '0'];
+                n = n * 10;
+                n+=mapping[c - '0'];
             }
             
             v.push_back({n, i});
