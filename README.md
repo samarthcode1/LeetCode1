@@ -302,6 +302,7 @@
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/samarthcode1/LeetCode1/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -385,6 +386,7 @@
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/samarthcode1/LeetCode1/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/samarthcode1/LeetCode1/tree/master/2727-number-of-senior-citizens) |
 ## Linked List
 |  |
 | ------- |
