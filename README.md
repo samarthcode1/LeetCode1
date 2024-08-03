@@ -387,6 +387,7 @@
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/samarthcode1/LeetCode1/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/samarthcode1/LeetCode1/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2470-removing-stars-from-a-string](https://github.com/samarthcode1/LeetCode1/tree/master/2470-removing-stars-from-a-string) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/samarthcode1/LeetCode1/tree/master/2727-number-of-senior-citizens) |
 ## Linked List
@@ -400,6 +401,7 @@
 | [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/samarthcode1/LeetCode1/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2470-removing-stars-from-a-string](https://github.com/samarthcode1/LeetCode1/tree/master/2470-removing-stars-from-a-string) |
 | [2645-pass-the-pillow](https://github.com/samarthcode1/LeetCode1/tree/master/2645-pass-the-pillow) |
 ## Math
 |  |
@@ -438,6 +440,7 @@
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/samarthcode1/LeetCode1/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2470-removing-stars-from-a-string](https://github.com/samarthcode1/LeetCode1/tree/master/2470-removing-stars-from-a-string) |
 ## Greedy
 |  |
 | ------- |
