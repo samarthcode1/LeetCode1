@@ -349,6 +349,7 @@
 | [2163-kth-distinct-string-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/samarthcode1/LeetCode1/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -373,6 +374,7 @@
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/samarthcode1/LeetCode1/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## String
 |  |
 | ------- |
@@ -393,6 +395,7 @@
 | [2470-removing-stars-from-a-string](https://github.com/samarthcode1/LeetCode1/tree/master/2470-removing-stars-from-a-string) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/samarthcode1/LeetCode1/tree/master/2727-number-of-senior-citizens) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/samarthcode1/LeetCode1/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -452,6 +455,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0334-increasing-triplet-subsequence) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/samarthcode1/LeetCode1/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Tree
 |  |
 | ------- |
@@ -517,6 +521,7 @@
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/2163-kth-distinct-string-in-an-array) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/samarthcode1/LeetCode1/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Graph
 |  |
 | ------- |
