@@ -288,6 +288,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/samarthcode1/LeetCode1/tree/master/0747-min-cost-climbing-stairs) |
 | [0870-magic-squares-in-grid](https://github.com/samarthcode1/LeetCode1/tree/master/0870-magic-squares-in-grid) |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
+| [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 | [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1196-filling-bookcase-shelves](https://github.com/samarthcode1/LeetCode1/tree/master/1196-filling-bookcase-shelves) |
@@ -333,6 +334,7 @@
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/samarthcode1/LeetCode1/tree/master/0322-coin-change) |
+| [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 ## Hash Table
 |  |
 | ------- |
@@ -343,6 +345,7 @@
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/samarthcode1/LeetCode1/tree/master/0870-magic-squares-in-grid) |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
+| [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 | [1034-subarrays-with-k-different-integers](https://github.com/samarthcode1/LeetCode1/tree/master/1034-subarrays-with-k-different-integers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
@@ -480,6 +483,7 @@
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0145-binary-tree-postorder-traversal) |
+| [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Bit Manipulation
@@ -492,6 +496,7 @@
 |  |
 | ------- |
 | [0870-magic-squares-in-grid](https://github.com/samarthcode1/LeetCode1/tree/master/0870-magic-squares-in-grid) |
+| [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Divide and Conquer
@@ -541,4 +546,8 @@
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/samarthcode1/LeetCode1/tree/master/1511-count-number-of-teams) |
+## Union Find
+|  |
+| ------- |
+| [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 <!---LeetCode Topics End-->
