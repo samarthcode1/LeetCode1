@@ -299,6 +299,7 @@
 | [1511-count-number-of-teams](https://github.com/samarthcode1/LeetCode1/tree/master/1511-count-number-of-teams) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/samarthcode1/LeetCode1/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/samarthcode1/LeetCode1/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
@@ -335,6 +336,7 @@
 | ------- |
 | [0322-coin-change](https://github.com/samarthcode1/LeetCode1/tree/master/0322-coin-change) |
 | [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/samarthcode1/LeetCode1/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Hash Table
 |  |
 | ------- |
@@ -486,6 +488,7 @@
 | [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/samarthcode1/LeetCode1/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/samarthcode1/LeetCode1/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -498,6 +501,7 @@
 | [0870-magic-squares-in-grid](https://github.com/samarthcode1/LeetCode1/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/samarthcode1/LeetCode1/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Divide and Conquer
 |  |
@@ -550,4 +554,8 @@
 |  |
 | ------- |
 | [0999-regions-cut-by-slashes](https://github.com/samarthcode1/LeetCode1/tree/master/0999-regions-cut-by-slashes) |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/samarthcode1/LeetCode1/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 <!---LeetCode Topics End-->
