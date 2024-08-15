@@ -5,14 +5,14 @@ public:
         for (int i = 0; i < bills.size(); i++) {
             if (bills[i] == 5) {
                 f++;
-                cout << "Five:" << f << endl;
+                // cout << "Five:" << f << endl;
             } else if (bills[i] == 10) {
                 ten++;
                 if (f <= 0) {
                     return false;
                 }
                 f--;
-                cout << "Five:" << f << "Ten:" << ten << endl;
+                // cout << "Five:" << f << "Ten:" << ten << endl;
             } else {
                 if(f >= 1 && ten >= 1) {
                     f--;
@@ -24,7 +24,7 @@ public:
                 else{
                     return false;
                 }
-                cout << "Five:" << f << "Ten:" << ten << endl;
+                // cout << "Five:" << f << "Ten:" << ten << endl;
             }
         }
         return true;
