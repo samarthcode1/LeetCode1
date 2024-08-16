@@ -285,6 +285,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0518-coin-change-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0518-coin-change-ii) |
+| [0624-maximum-distance-in-arrays](https://github.com/samarthcode1/LeetCode1/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/samarthcode1/LeetCode1/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0747-min-cost-climbing-stairs](https://github.com/samarthcode1/LeetCode1/tree/master/0747-min-cost-climbing-stairs) |
 | [0870-magic-squares-in-grid](https://github.com/samarthcode1/LeetCode1/tree/master/0870-magic-squares-in-grid) |
@@ -469,6 +470,7 @@
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
 | [0334-increasing-triplet-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0334-increasing-triplet-subsequence) |
+| [0624-maximum-distance-in-arrays](https://github.com/samarthcode1/LeetCode1/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/samarthcode1/LeetCode1/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/samarthcode1/LeetCode1/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/samarthcode1/LeetCode1/tree/master/1818-maximum-score-from-removing-substrings) |
