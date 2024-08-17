@@ -1,55 +1,48 @@
 class Solution {
 public:
     long long maxPoints(vector<vector<int>>& points) {
-        // int m = points.size();
-        // int n = points[0].size();
-        // vector<long long> prev(n);
-        // int score = 0;
-        // for(int col = 0; col < n; col++) {
-        //     prev[col] = points[0][col];
-        // }
+        int rows = points.size(), cols = points[0].size();
+        vector<long long> previousRow(cols);
 
-        // for(int i = 1; i<m; i++) {
-        //     vector<long long> curr(n);
-        //     for(int j = 0; j<n; j++) {
-        //         for(int k = 0; k < n; k++) {
-        //             curr[j] = max(curr[j], prev[k] + points[i][j] -
-        //             abs(k-j));
-        //         }
-        //     }
-        //     prev = curr;
-        // }
-        // return *max_element(prev.begin(), prev.end());
-
-        int m = points.size(), n = points[0].size();
-        vector<long long> prev(n);
-        int score = 0;
-
-        for (int col = 0; col < n; col++) {
-            prev[col] = points[0][col];
+        // Initialize the first row
+        for (int col = 0; col < cols; ++col) {
+            previousRow[col] = points[0][col];
         }
 
-        for (int i = 1; i < m; i++) {
-            vector<long long> curr(n);
-            vector<long long> left = curr;
-            vector<long long> right = curr;
+        // Process each row
+        for (int row = 0; row < rows - 1; ++row) {
+            vector<long long> leftMax(cols);
+            vector<long long> rightMax(cols);
+            vector<long long> currentRow(cols);
 
-            left[0] = prev[0];
-            for (int j = 1; j < n; j++) {
-                left[j] = max(prev[j], left[j - 1] - 1);
+            // Calculate left-to-right maximum
+            leftMax[0] = previousRow[0];
+            for (int col = 1; col < cols; ++col) {
+                leftMax[col] = max(leftMax[col - 1] - 1, previousRow[col]);
             }
 
-            right[n - 1] = prev[n - 1];
-            for (int j = n - 2; j >= 0; j--) {
-                right[j] = max(prev[j], right[j + 1] - 1);
+            // Calculate right-to-left maximum
+            rightMax[cols - 1] = previousRow[cols - 1];
+            for (int col = cols - 2; col >= 0; --col) {
+                rightMax[col] = max(rightMax[col + 1] - 1, previousRow[col]);
             }
 
-            for (int j = 0; j < n; j++) {
-                curr[j] = points[i][j] + max(left[j], right[j]);
+            // Calculate the current row's maximum points
+            for (int col = 0; col < cols; ++col) {
+                currentRow[col] =
+                    points[row + 1][col] + max(leftMax[col], rightMax[col]);
             }
 
-            prev = curr;
+            // Update previousRow for the next iteration
+            previousRow = currentRow;
         }
-        return *max_element(prev.begin(), prev.end());
+
+        // Find the maximum value in the last processed row
+        long long maxPoints = 0;
+        for (int col = 0; col < cols; ++col) {
+            maxPoints = max(maxPoints, previousRow[col]);
+        }
+
+        return maxPoints;
     }
 };
