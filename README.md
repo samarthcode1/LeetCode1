@@ -307,6 +307,7 @@
 | [1741-sort-array-by-increasing-frequency](https://github.com/samarthcode1/LeetCode1/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/samarthcode1/LeetCode1/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/samarthcode1/LeetCode1/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/samarthcode1/LeetCode1/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/samarthcode1/LeetCode1/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/samarthcode1/LeetCode1/tree/master/2502-sort-the-people) |
@@ -334,6 +335,7 @@
 | [1511-count-number-of-teams](https://github.com/samarthcode1/LeetCode1/tree/master/1511-count-number-of-teams) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/samarthcode1/LeetCode1/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/samarthcode1/LeetCode1/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/samarthcode1/LeetCode1/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Breadth-First Search
 |  |
 | ------- |
