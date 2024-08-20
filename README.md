@@ -296,6 +296,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1196-filling-bookcase-shelves](https://github.com/samarthcode1/LeetCode1/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/samarthcode1/LeetCode1/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
 | [1333-sort-the-jumbled-numbers](https://github.com/samarthcode1/LeetCode1/tree/master/1333-sort-the-jumbled-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/samarthcode1/LeetCode1/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -330,6 +331,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/samarthcode1/LeetCode1/tree/master/0747-min-cost-climbing-stairs) |
 | [1170-shortest-common-supersequence](https://github.com/samarthcode1/LeetCode1/tree/master/1170-shortest-common-supersequence) |
 | [1196-filling-bookcase-shelves](https://github.com/samarthcode1/LeetCode1/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/samarthcode1/LeetCode1/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/samarthcode1/LeetCode1/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/samarthcode1/LeetCode1/tree/master/1511-count-number-of-teams) |
@@ -433,6 +435,7 @@
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/samarthcode1/LeetCode1/tree/master/0371-sum-of-two-integers) |
 | [0870-magic-squares-in-grid](https://github.com/samarthcode1/LeetCode1/tree/master/0870-magic-squares-in-grid) |
+| [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/samarthcode1/LeetCode1/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/samarthcode1/LeetCode1/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/samarthcode1/LeetCode1/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -541,6 +544,7 @@
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
+| [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/samarthcode1/LeetCode1/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Counting
 |  |
@@ -568,4 +572,8 @@
 |  |
 | ------- |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/samarthcode1/LeetCode1/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
