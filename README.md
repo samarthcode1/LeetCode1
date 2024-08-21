@@ -276,6 +276,7 @@
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
 | [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/samarthcode1/LeetCode1/tree/master/0152-maximum-product-subarray) |
+| [0238-product-of-array-except-self](https://github.com/samarthcode1/LeetCode1/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/samarthcode1/LeetCode1/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/samarthcode1/LeetCode1/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -542,6 +543,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/samarthcode1/LeetCode1/tree/master/0238-product-of-array-except-self) |
 | [0966-binary-subarrays-with-sum](https://github.com/samarthcode1/LeetCode1/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/samarthcode1/LeetCode1/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
