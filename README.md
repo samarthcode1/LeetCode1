@@ -329,6 +329,7 @@
 | [0368-largest-divisible-subset](https://github.com/samarthcode1/LeetCode1/tree/master/0368-largest-divisible-subset) |
 | [0518-coin-change-ii](https://github.com/samarthcode1/LeetCode1/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/samarthcode1/LeetCode1/tree/master/0583-delete-operation-for-two-strings) |
+| [0664-strange-printer](https://github.com/samarthcode1/LeetCode1/tree/master/0664-strange-printer) |
 | [0747-min-cost-climbing-stairs](https://github.com/samarthcode1/LeetCode1/tree/master/0747-min-cost-climbing-stairs) |
 | [1170-shortest-common-supersequence](https://github.com/samarthcode1/LeetCode1/tree/master/1170-shortest-common-supersequence) |
 | [1196-filling-bookcase-shelves](https://github.com/samarthcode1/LeetCode1/tree/master/1196-filling-bookcase-shelves) |
@@ -403,6 +404,7 @@
 | [0273-integer-to-english-words](https://github.com/samarthcode1/LeetCode1/tree/master/0273-integer-to-english-words) |
 | [0443-string-compression](https://github.com/samarthcode1/LeetCode1/tree/master/0443-string-compression) |
 | [0583-delete-operation-for-two-strings](https://github.com/samarthcode1/LeetCode1/tree/master/0583-delete-operation-for-two-strings) |
+| [0664-strange-printer](https://github.com/samarthcode1/LeetCode1/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [1170-shortest-common-supersequence](https://github.com/samarthcode1/LeetCode1/tree/master/1170-shortest-common-supersequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/samarthcode1/LeetCode1/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
