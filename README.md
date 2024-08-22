@@ -511,6 +511,7 @@
 | [0191-number-of-1-bits](https://github.com/samarthcode1/LeetCode1/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/samarthcode1/LeetCode1/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/samarthcode1/LeetCode1/tree/master/0371-sum-of-two-integers) |
+| [0476-number-complement](https://github.com/samarthcode1/LeetCode1/tree/master/0476-number-complement) |
 ## Matrix
 |  |
 | ------- |
