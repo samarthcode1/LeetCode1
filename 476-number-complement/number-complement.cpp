@@ -40,9 +40,12 @@ public:
     int findComplement(int num) {
         int i = 0, ans = 0;
         while (num) {
+            cout<<"Num: "<<num<<endl;
             int temp = num & 1;
+            cout<<"Temp: "<<temp<<endl;
             if (!temp)
                 ans += pow(2, i);
+            cout<<"Ans: "<<ans<<endl;
             num = num >> 1;
             i++;
         }
