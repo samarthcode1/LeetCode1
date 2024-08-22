@@ -38,16 +38,15 @@
 class Solution {
 public:
     int findComplement(int num) {
-        int i = 0, ans = 0;
-        while (num) {
-            cout<<"Num: "<<num<<endl;
-            int temp = num & 1;
-            cout<<"Temp: "<<temp<<endl;
-            if (!temp)
-                ans += pow(2, i);
-            cout<<"Ans: "<<ans<<endl;
-            num = num >> 1;
-            i++;
+        int ans = 0;
+        long long power = 1;
+        while (num > 0) {
+            int last = num % 2;
+            if (last == 0) {
+                ans += power;
+            }
+            num = num / 2;
+            power = power * 2;
         }
         return ans;
     }
