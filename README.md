@@ -567,10 +567,12 @@
 | ------- |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/samarthcode1/LeetCode1/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/samarthcode1/LeetCode1/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2803-modify-graph-edge-weights](https://github.com/samarthcode1/LeetCode1/tree/master/2803-modify-graph-edge-weights) |
 ## Shortest Path
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/samarthcode1/LeetCode1/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2803-modify-graph-edge-weights](https://github.com/samarthcode1/LeetCode1/tree/master/2803-modify-graph-edge-weights) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -588,4 +590,8 @@
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/samarthcode1/LeetCode1/tree/master/1240-stone-game-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2803-modify-graph-edge-weights](https://github.com/samarthcode1/LeetCode1/tree/master/2803-modify-graph-edge-weights) |
 <!---LeetCode Topics End-->
