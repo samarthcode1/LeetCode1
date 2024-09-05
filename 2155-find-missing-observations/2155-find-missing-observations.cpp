@@ -16,6 +16,7 @@ public:
         vector<int>v(n,temp);
         for(int i=0;i<maxi;i++){
             v[i]++;
+            // cout<<v[i]<<" ";
         }
         return v;
     }
