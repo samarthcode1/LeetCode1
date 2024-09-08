@@ -18,6 +18,7 @@ public:
             count++;
         }
         int partSize=count/k;
+        // cout<<partSize<<" ";
         int extraNode=count%k;
         vector<ListNode*> ans;
         ListNode* current=head,*prev=NULL;
