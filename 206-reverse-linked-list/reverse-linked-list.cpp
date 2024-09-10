@@ -14,7 +14,7 @@ public:
         ListNode* p1=NULL;
         ListNode* p2=NULL;
         if(head==NULL){
-            return nullptr;
+            return NULL;
         }
         while(head!=NULL){
             p2=p1;
@@ -25,4 +25,5 @@ public:
         head=p2;
         return p1;
     }
+
 };
