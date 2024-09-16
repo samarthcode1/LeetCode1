@@ -2,8 +2,8 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         stack<int>st;
-        int n=height.size();
         int ans=0;
+        int n=height.size();
         for(int i=0;i<n;i++){
             while(!st.empty() && height[st.top()]<height[i]){
                 int top=st.top();
