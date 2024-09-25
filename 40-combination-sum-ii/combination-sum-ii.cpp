@@ -1,38 +1,36 @@
 class Solution {
 public:
-    void combinesum(vector<int>& candidate,int target,vector<int>& v,int sum,int id,int n, vector<vector<int>> &ans){
-        if(sum == target){
+    void check(vector<int>& candidates, int target, int n,
+               vector<vector<int>>& ans, vector<int>& v, int idx, int sum) {
+        if (sum == target) {
             ans.push_back(v);
             return;
         }
-
-        if(sum>target || id==n){
+        if (sum > target || idx == n) {
             return;
         }
-
-        for(int i=id;i<n;i++){
-            if(sum+candidate[i]>target){
+        for (int i = idx; i < n; i++) {
+            if (sum + candidates[i] > target) {
                 break;
             }
-            else if(i>id && candidate[i] == candidate[i-1]){
+            else if (i > idx && candidates[i] == candidates[i - 1]) {
                 continue;
-            }
-            else 
-            {
-                sum+=candidate[i];
-                v.push_back(candidate[i]);
-                combinesum(candidate,target,v,sum,i+1,n,ans);
-                sum-=candidate[i];
+            } 
+            else {
+                sum += candidates[i];
+                v.push_back(candidates[i]);
+                check(candidates, target, n, ans, v, i + 1, sum);
+                sum -= candidates[i];
                 v.pop_back();
             }
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        int n=candidates.size();
-        sort(candidates.begin(),candidates.end());
-        vector<vector<int>>result;
-        vector<int>v;
-        combinesum(candidates,target,v,0,0,n,result);
-        return result;
+        sort(candidates.begin(), candidates.end());
+        int n = candidates.size();
+        vector<vector<int>> ans;
+        vector<int> v;
+        check(candidates, target, n, ans, v, 0, 0);
+        return ans;
     }
 };
