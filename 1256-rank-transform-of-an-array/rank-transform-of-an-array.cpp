@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
-        map<int, int> numToRank;
+       unordered_map<int, int> numToRank;
         vector<int> sortedArr(arr);
         sort(sortedArr.begin(), sortedArr.end());
         int rank = 1;
@@ -10,6 +10,9 @@ public:
                 rank++;
             }
             numToRank[sortedArr[i]] = rank;
+        }
+        for(auto i:numToRank){
+            cout<<i.first<<endl;
         }
         for (int i = 0; i < arr.size(); i++) {
             arr[i] = numToRank[arr[i]];
