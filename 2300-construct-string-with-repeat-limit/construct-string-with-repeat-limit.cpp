@@ -1,45 +1,34 @@
 class Solution {
 public:
     string repeatLimitedString(string s, int repeatLimit) {
-        sort(s.rbegin(), s.rend());
-
-        string result;
-        int n = s.size();
-        int count = 1;
-        vector<pair<char, int>> freq;
-
-        for (int i = 0; i < n; i++) {
-            if (i > 0 && s[i] == s[i - 1]) {
-                count++;
-            } else {
-                if (i > 0)
-                    freq.push_back({s[i - 1], count});
-                count = 1;
-            }
+        unordered_map<char,int>mp;
+        for(auto i:s){
+            mp[i]++;
         }
-        freq.push_back({s[n - 1], count});
-
-        int idx = 0;
-        while (idx < freq.size()) {
-            auto [ch, cnt] = freq[idx];
-
-            int use = min(repeatLimit, cnt);
-            result.append(use, ch);
-            freq[idx].second -= use;
-            if (freq[idx].second > 0) {
-                int next = idx + 1;
-                while (next < freq.size() && freq[next].second == 0) {
-                    next++;
+        priority_queue<char>pq;
+        for(auto i:mp){
+            char c=i.first;
+            pq.push(c);
+        }
+        string res;
+        while(!pq.empty()){
+            char ch=pq.top();
+            pq.pop();
+            int count=mp[ch];
+            int limit=min(count,repeatLimit);
+            res.append(limit,ch);
+            mp[ch]-=limit;
+            if(mp[ch]>0 && !pq.empty()){
+                char next=pq.top();
+                pq.pop();
+                res.push_back(next);
+                mp[next]--;
+                if(mp[next]>0){
+                    pq.push(next);
                 }
-                if (next == freq.size())
-                    break;
-                result += freq[next].first;
-                freq[next].second--;
-            } else {
-                idx++;
+                pq.push(ch);
             }
         }
-
-        return result;
+        return res;
     }
 };
