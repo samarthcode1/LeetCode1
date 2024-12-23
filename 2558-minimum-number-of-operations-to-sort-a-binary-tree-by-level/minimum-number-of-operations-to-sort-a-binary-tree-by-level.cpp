@@ -21,7 +21,7 @@ public:
         int N = arr.size();
         int ans = 0;
         vector<int> temp = arr;
-        map<int, int> h;
+        unordered_map<int, int> h;
         sort(temp.begin(), temp.end());
         for (int i = 0; i < N; i++) {
             h[arr[i]] = i;
