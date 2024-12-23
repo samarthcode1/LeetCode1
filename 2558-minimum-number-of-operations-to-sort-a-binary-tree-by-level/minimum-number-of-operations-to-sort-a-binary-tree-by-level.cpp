@@ -18,7 +18,7 @@ public:
         arr[j] = temp;
     }
     int minSwaps(vector<int> arr) {
-        int N=arr.size();
+        int N = arr.size();
         int ans = 0;
         vector<int> temp = arr;
         map<int, int> h;
@@ -37,24 +37,27 @@ public:
         }
         return ans;
     }
-    
-    int minimumOperations(TreeNode* root) {
-        queue<TreeNode*> queue;
-        queue.push(root);
-        int totalSwaps = 0;
-        while (!queue.empty()) {
-            int levelSize = queue.size();
-            vector<int> levelValues(levelSize);
-            for (int i = 0; i < levelSize; i++) {
-                TreeNode* node = queue.front();
-                queue.pop();
-                levelValues[i] = node->val;
-                if (node->left != nullptr) queue.push(node->left);
-                if (node->right != nullptr) queue.push(node->right);
-            }
 
-            totalSwaps += minSwaps(levelValues);
+    int minimumOperations(TreeNode* root) {
+        queue<TreeNode*>q;
+        q.push(root);
+        int totalSwap=0;
+        while(!q.empty()){
+            int size=q.size();
+            vector<int>v(size);
+            for(int i=0;i<size;i++){
+                TreeNode* node=q.front();
+                q.pop();
+                v[i]=node->val;
+                if(node->left){
+                    q.push(node->left);
+                }
+                if(node->right){
+                    q.push(node->right);
+                }
+            }
+            totalSwap+=minSwaps(v);
         }
-        return totalSwaps;
+        return totalSwap;
     }
 };
