@@ -14,10 +14,10 @@ public:
     }
     int uniquePaths(int m, int n) {
         vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
-        int num=check(0,0,m,n,dp);
         if(m==1 && n==1){
-            return num;
+            return 1;
         }
+        int num=check(0,0,m,n,dp);
         return num;
     }
 };
