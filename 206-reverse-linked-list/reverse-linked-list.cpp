@@ -13,17 +13,16 @@ public:
     ListNode* reverseList(ListNode* head) {
         ListNode* p1=NULL;
         ListNode* p2=NULL;
-        if(head==NULL){
+        if(!head){
             return NULL;
         }
-        while(head!=NULL){
+        while(head){
             p2=p1;
             p1=head;
             head=head->next;
             p1->next=p2;
         }
-        head=p2;
+        p2=head;
         return p1;
     }
-
 };
