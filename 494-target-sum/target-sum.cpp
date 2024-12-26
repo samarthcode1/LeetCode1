@@ -33,6 +33,12 @@ public:
             return 0; 
         int s2 = (totSum - target) / 2;
         vector<vector<int>> dp(n, vector<int>(s2 + 1, -1));
+        // for(int i=0;i<n;i++){
+        //     for(int j=0;j<s2+1;j++){
+        //         cout<<dp[i][j]<<" ";
+        //     }
+        //     cout<<endl;
+        // }
         return find(n - 1, s2, dp, nums);
     }
 };
