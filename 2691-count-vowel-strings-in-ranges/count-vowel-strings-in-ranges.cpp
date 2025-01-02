@@ -14,12 +14,20 @@ public:
             }
             prefixSum[i] = sum;
         }
+        for(auto i:prefixSum){
+            cout<<i<<endl;
+        }
 
         for (int i = 0; i < queries.size(); i++) {
             vector<int> currentQuery = queries[i];
-            ans[i] =
-                prefixSum[currentQuery[1]] -
-                (currentQuery[0] == 0 ? 0 : prefixSum[currentQuery[0] - 1]);
+            int temp;
+            if(currentQuery[0]==0){
+                temp=0;
+            }
+            else{
+                temp=prefixSum[currentQuery[0]-1];
+            }
+            ans[i] = prefixSum[currentQuery[1]] -(temp);
         }
 
         return ans;
