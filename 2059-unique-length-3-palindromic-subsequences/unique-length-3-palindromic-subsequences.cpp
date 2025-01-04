@@ -1,12 +1,12 @@
 class Solution {
 public:
     int countPalindromicSubsequence(string s) {
-        unordered_set<char>set;
-        for(char c:s){
-            set.insert(c);
+        unordered_set<char>st;
+        for(auto c:s){
+            st.insert(c);
         }
         int ans=0;
-        for(char c:set){
+        for(char c:st){
             int i=-1;
             int j=0;
             for(int k=0;k<s.size();k++){
@@ -17,14 +17,13 @@ public:
                     j=k;
                 }
             }
-            unordered_set<char>s1;
+            unordered_set<char>final;
             for(int k=i+1;k<j;k++){
-                s1.insert(s[k]);
+                final.insert(s[k]);
             }
-            ans+=s1.size();
-            
+            ans+=final.size();
         }
         return ans;
-    }
 
+    }
 };
