@@ -1,26 +1,25 @@
 class Solution {
 public:
-    void check(vector<int>& candidates, int target, int n,
-               vector<vector<int>>& ans, vector<int>& v, int idx, int sum) {
-        if (sum == target) {
+    void check(vector<int>& candidates, int target, int n,vector<vector<int>>& ans, vector<int>& v, int idx, int sum) {
+        if(sum==target){
             ans.push_back(v);
             return;
         }
-        if (sum > target || idx == n) {
+        if(sum>target || idx==n){
             return;
         }
-        for (int i = idx; i < n; i++) {
-            if (sum + candidates[i] > target) {
+        for(int i=idx;i<candidates.size();i++){
+            if(sum+candidates[i]>target){
                 break;
             }
-            else if (i > idx && candidates[i] == candidates[i - 1]) {
+            else if(i>idx && candidates[i-1]==candidates[i]){
                 continue;
-            } 
-            else {
-                sum += candidates[i];
+            }
+            else{
+                sum+=candidates[i];
                 v.push_back(candidates[i]);
-                check(candidates, target, n, ans, v, i + 1, sum);
-                sum -= candidates[i];
+                check(candidates,target,n,ans,v,i+1,sum);
+                sum-=candidates[i];
                 v.pop_back();
             }
         }
