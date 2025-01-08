@@ -1,31 +1,31 @@
 class Solution {
 public:
-    bool isPalindrome(string s, int start, int end) {
-        while (start <= end) {
-            if (s[start] != s[end]){
+    bool isPalin(string s,int start,int end){
+        while(start<=end){
+            if(s[start]!=s[end]){
                 return false;
             }
             start++,end--;
         }
         return true;
     }
-    void palin(vector<vector<string>>& pal,vector<string>& v,int ind,string s){
-        if(ind==s.size()){
-            pal.push_back(v);
+    void check(int idx,vector<vector<string>>& ans, vector<string>& v,string& s){
+        if(idx==s.size()){
+            ans.push_back(v);
             return;
         }
-        for(int i=ind;i<s.size();i++){
-            if(isPalindrome(s,ind,i)){
-                v.push_back(s.substr(ind,i-ind+1));
-                palin(pal,v,i+1,s);
+        for(int i=idx;i<s.size();i++){
+            if(isPalin(s,idx,i)){
+                v.push_back(s.substr(idx,i-idx+1));
+                check(i+1,ans,v,s);
                 v.pop_back();
             }
         }
     }
     vector<vector<string>> partition(string s) {
-        vector<vector<string>>pal;
+        vector<vector<string>>ans;
         vector<string>v;
-        palin(pal,v,0,s);
-        return pal;
+        check(0,ans,v,s);
+        return ans;
     }
 };
