@@ -1,7 +1,7 @@
 class Solution {
 public:
     void combination(int index,int size,vector<vector<int>>& v,vector<int>& nums){
-        if(index>=size){
+        if(index==size){
             v.push_back(nums);
             return;
         }
@@ -14,8 +14,7 @@ public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>>v;
         int size=nums.size();
-        int index=0;
-        combination(index,size,v,nums);
+        combination(0,size,v,nums);
         return v;
     }
 };
