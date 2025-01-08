@@ -23,8 +23,6 @@ public:
             for(int j=i+1;j<words.size();j++){
                 if(isPrefixAndSuffix(words[i],words[j])){
                     count++;
-                    cout<<words[i]<<" "<<words[j];
-                    cout<<endl;
                 }
             }
         }
