@@ -274,6 +274,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/samarthcode1/LeetCode1/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/samarthcode1/LeetCode1/tree/master/0055-jump-game) |
+| [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0139-word-break](https://github.com/samarthcode1/LeetCode1/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/samarthcode1/LeetCode1/tree/master/0152-maximum-product-subarray) |
 | [0238-product-of-array-except-self](https://github.com/samarthcode1/LeetCode1/tree/master/0238-product-of-array-except-self) |
@@ -474,6 +475,7 @@
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
 | [0145-binary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/samarthcode1/LeetCode1/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/samarthcode1/LeetCode1/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -600,4 +602,8 @@
 |  |
 | ------- |
 | [2803-modify-graph-edge-weights](https://github.com/samarthcode1/LeetCode1/tree/master/2803-modify-graph-edge-weights) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/samarthcode1/LeetCode1/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
