@@ -16,6 +16,7 @@ public:
         for(int i=0;i<=n;i++){
             while(!st.empty() && (i==n || heights[st.top()]>=heights[i])){
                 int h=heights[st.top()];
+                // cout<<h<<endl;
                 st.pop();
                 int width;
                 if(st.empty()){
