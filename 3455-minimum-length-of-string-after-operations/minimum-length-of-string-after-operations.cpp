@@ -12,7 +12,7 @@ public:
         int count=0;
         for(auto i:mp){
             int freq=i.second;
-            if(freq%2){
+            if(freq%2!=0){
                 count+=freq-1;
             }
             else{
