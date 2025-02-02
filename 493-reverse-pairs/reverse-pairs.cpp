@@ -1,40 +1,53 @@
 class Solution {
 public:
-    void merge(vector<int>& A, int start, int mid, int end) {
-        int n1 = (mid - start + 1);
-        int n2 = (end - mid);
-        int L[n1], R[n2];
-        for (int i = 0; i < n1; i++)
-            L[i] = A[start + i];
-        for (int j = 0; j < n2; j++)
-            R[j] = A[mid + 1 + j];
-        int i = 0, j = 0;
-        for (int k = start; k <= end; k++) {
-            if (j >= n2 || (i < n1 && L[i] <= R[j]))
-                A[k] = L[i++];
-            else
-                A[k] = R[j++];
+    void merge(vector<int>& nums, int low, int mid, int high) {
+        vector<int> temp;
+        int left = low, right = mid + 1;
+        while (left <= mid && right <= high) {
+            if (nums[left] <= nums[right]) {
+                temp.push_back(nums[left]);
+                left++;
+            } else {
+                temp.push_back(nums[right]);
+                right++;
+            }
+        }
+        while (left <= mid) {
+            temp.push_back(nums[left]);
+            left++;
+        }
+
+        while (right <= high) {
+            temp.push_back(nums[right]);
+            right++;
+        }
+        for(int i=low;i<=high;i++){
+            nums[i]=temp[i-low];
         }
     }
-
-    int mergesort_and_count(vector<int>& A, int start, int end) {
-        if (start < end) {
-            int mid = (start + end) / 2;
-            int count = mergesort_and_count(A, start, mid) +
-                        mergesort_and_count(A, mid + 1, end);
-            int j = mid + 1;
-            for (int i = start; i <= mid; i++) {
-                while (j <= end && A[i] > A[j] * 2LL)
-                    j++;
-                count += j - (mid + 1);
+    int counting(vector<int>& nums, int low, int mid, int high) {
+        int count = 0;
+        int right = mid + 1;
+        for (int i = low; i <= mid; i++) {
+            while (right <= high && (long long)nums[i] > 2LL * nums[right]) {
+                right++;
             }
-            merge(A, start, mid, end);
+            count += right - (mid + 1);
+        }
+        return count;
+    }
+    int mergerSort(vector<int>& nums,int low,int high) {
+        int n = nums.size();
+        int count=0;
+        if (low >= high) {
             return count;
-        } else
-            return 0;
+        }
+        int mid = (low + high) / 2;
+        count += mergerSort(nums, low, mid);
+        count += mergerSort(nums, mid + 1, high);
+        count += counting(nums, low, mid, high);
+        merge(nums, low, mid, high);
+        return count;
     }
-
-    int reversePairs(vector<int>& nums) {
-        return mergesort_and_count(nums, 0, nums.size() - 1);
-    }
+    int reversePairs(vector<int>& nums) { return mergerSort(nums,0,nums.size()-1); }
 };
