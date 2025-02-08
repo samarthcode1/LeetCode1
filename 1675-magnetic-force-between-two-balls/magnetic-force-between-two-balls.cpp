@@ -22,14 +22,14 @@ public:
             mid=(high+low)/2;
             if(check(position,mid,m)){
                 low=mid+1;
-                force=mid;
+                // force=mid;
             }
             else{
                 high=mid-1;
 
             }
         }
-        return force;
+        return high;
 
     }
 };
