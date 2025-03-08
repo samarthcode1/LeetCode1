@@ -1,20 +1,17 @@
 class Solution {
 public:
     int minimumRecolors(string blocks, int k) {
-        int mini=k;
-        for (int i = 0; i < blocks.size()-k+1; i++) {
-            int count = 0;
-            int left = i, right = i + k;
-            while (left<right){
-                if(blocks[left]=='W'){
-                    count++;
-                }
-                // cout<<count<<endl;
-                left++;
+        int low = 0, high = 0, size = blocks.size();
+        int white = 0, res = INT_MAX;
+        while (high < size) {
+            white += (blocks[high] == 'W');
+            while (high - low + 1 >= k) {
+                res = min(res, white);
+                white -= (blocks[low++] == 'W');
+                // low++;
             }
-            // cout<<endl;
-            mini=min(mini,count);
+            high++;
         }
-        return mini;
+        return res;
     }
 };
