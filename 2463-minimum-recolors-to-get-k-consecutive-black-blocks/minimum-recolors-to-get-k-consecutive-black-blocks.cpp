@@ -9,10 +9,10 @@ public:
                 if(blocks[left]=='W'){
                     count++;
                 }
-                cout<<count<<endl;
+                // cout<<count<<endl;
                 left++;
             }
-            cout<<endl;
+            // cout<<endl;
             mini=min(mini,count);
         }
         return mini;
