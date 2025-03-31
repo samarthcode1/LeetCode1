@@ -1,19 +1,23 @@
 class Solution {
 public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
+        vector<vector<string>>str;
         sort(products.begin(),products.end());
-        vector<vector<string>>v;
-        int start,bsStart=0,n=products.size();
-        string prefix;
-        for(char& c:searchWord){
-            prefix+=c;
-            start=lower_bound(products.begin()+bsStart,products.end(),prefix)-products.begin();
-            v.push_back({});
-            for(int i=start;i<min(start+3,n) && !products[i].compare(0,prefix.length(),prefix);i++){
-                v.back().push_back(products[i]);
+        int n=products.size();
+        int l=0,r=n-1;
+        for(int i=0;i<searchWord.size();i++){
+            char c=searchWord[i];
+            while(l<=r && (products[l].size()<=i || products[l][i]!=c)){
+                l++;
             }
-            bsStart=start;
+            while(l<=r && (products[r].size()<=i || products[r][i]!=c)){
+                r--;
+            }
+            str.push_back({});
+            for(int j=0;j<3 && (l+j)<=r;j++){
+                str.back().push_back(products[l+j]);
+            }
         }
-        return v;
+        return str;
     }
 };
