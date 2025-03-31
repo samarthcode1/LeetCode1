@@ -6,7 +6,7 @@ public:
         int j=0;
         for(int i=0;i<nums.size();i++){
             maxi=max(maxi,++mp[nums[i]]);
-            while(i-j-maxi+1>k){
+            while(i-j-maxi>=k){
                 --mp[nums[j]];
                 j++;
             }
