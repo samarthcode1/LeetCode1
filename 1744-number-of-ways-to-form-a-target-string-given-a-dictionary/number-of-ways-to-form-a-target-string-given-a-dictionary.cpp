@@ -1,33 +1,37 @@
+const int MOD = 1e9 + 7;
+
 class Solution {
 public:
-    int numWays(vector<string>& words, string target) {
-        const int mod = 1e9 + 7;
-        int m = words[0].size(), n = target.size();
-        vector<vector<int>> cnt(m, vector<int>(26, 0));
+    vector<vector<int>> memo;
+    vector<vector<int>> freq;
 
-        // Count occurrences of each character at each column
-        for (string& word : words) {
-            for (int i = 0; i < m; i++) {
-                cnt[i][word[i] - 'a']++;
+    int numWays(vector<string>& words, string target) {
+        int m = words.size(), n = words[0].size(), t = target.size();
+        
+        freq.assign(n, vector<int>(26, 0));
+        
+        for (const string& word : words) {
+            for (int col = 0; col < n; ++col) {
+                freq[col][word[col] - 'a']++;
             }
         }
 
-        // DP Memoization
-        vector<vector<int>> dp(n + 1, vector<int>(m + 1, -1));
+        memo.assign(t + 1, vector<int>(n + 1, -1));
 
-        function<int(int, int)> dfs = [&](int i, int k) -> int {
-            if (i == n) return 1;
-            if (k == m) return 0;
-            if (dp[i][k] != -1) return dp[i][k];
+        return dfs(target, 0, 0, n);
+    }
 
-            long long res = dfs(i, k + 1); // Skip position k
-            if (cnt[k][target[i] - 'a'] > 0) {
-                res += (long long)cnt[k][target[i] - 'a'] * dfs(i + 1, k + 1);
-                res %= mod;
-            }
-            return dp[i][k] = res;
-        };
+    int dfs(const string& target, int i, int j, int n) {
+        if (i == target.length()) return 1;  
+        if (j == n) return 0;  
+        if (memo[i][j] != -1) return memo[i][j];  
+        long long ways = dfs(target, i, j + 1, n);
 
-        return dfs(0, 0);
+        char ch = target[i];
+        if (freq[j][ch - 'a'] > 0) {
+            ways = (ways + (long long)freq[j][ch - 'a'] * dfs(target, i + 1, j + 1, n)) % MOD;
+        }
+
+        return memo[i][j] = ways;
     }
 };
